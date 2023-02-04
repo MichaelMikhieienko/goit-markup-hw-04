@@ -187,6 +187,14 @@ padding: 12px 24px;
 .button-port:last-child{
 	margin-right: 0;
 }
+
+.button-port:hover,
+.button-port:focus
+.button-port:active{
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
 .main-button:hover,
 .main-button:focus,
 .main-button:active{
@@ -248,7 +256,15 @@ align-items: center;
 	margin: 0;
 	flex-basis: calc((100% - 48px) / 3);
 	
+	
 }
+.concepts-sec:hover,
+.concepts-sec:focus
+.concepts-sec:active{
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+	border: 1px solid #E7E9FC;
+}
+
 .conceprs-text{
 	padding: 32px 0px 32px 16px;
 	border-left: 1px solid #E7E9FC;
@@ -311,6 +327,29 @@ fill: var(--color-ocean);
 		color: var(--color-cloud);
 	}
 
+	.footer-soc-media-text{
+		display: flex;
+		align-items: baseline;
+		justify-content: center;
+		color: var(--color-cornflower);
+		margin-bottom: 16px;
+	}
+	.footer-media{
+
+	}
+	.footer-desk{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: calc(24 / 16);
+		letter-spacing: 0.02em;
+			color: var(--color-cornflower) ;
+			margin-top: 16px;
+			max-width: 264px;
+			margin-bottom: 0;
+			margin-right: 120px;
+			}
+		
+
 	.social-media{
 		display: flex;
 		align-items: center;
@@ -333,17 +372,6 @@ fill: var(--color-ocean);
 			background-color: var(--color-green);
 		}
 
-.footer-desk{
-font-weight: 400;
-font-size: 16px;
-line-height: calc(24 / 16);
-letter-spacing: 0.02em;
-	color: var(--color-cornflower) ;
-	margin-top: 16px;
-	max-width: 264px;
-	margin-bottom: 0;
-	
-}
 
 
 .hero{
