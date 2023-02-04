@@ -293,9 +293,26 @@ letter-spacing: 0.02em;
 	background-image: linear-gradient(var(--color-bg-hero),var(--color-bg-hero)), url(../images/index/Hero/people-office\ 1.jpg);
 	max-width: 1440px;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: auto;
+	}
+
+.hero-icons{
+	display: flex;
+	padding: 0;
+	margin: 0;
 	
-		
+	
+}
+.hero-icons-list{
+	margin-right: 24px;
+	border-radius: 4px;
+	background-color: var(--color-cloud);
+	padding: 24px 102.14px 24px 102.14px;
+}
+.hero-icons-list:last-child{
+	margin-right: 0;
 }
 
 .h1-text{
@@ -375,6 +392,24 @@ line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
 margin: 0;
+margin-bottom: 8px;
+}
+
+.social-link{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+
+}
+
+.social-icon{
+	display: flex;
+	width: 40px;
+height: 40px;
+background-color: var(--color-iris);
+border-radius: 50%;
+
 }
 .image-sec{
 padding-bottom: 120px;
