@@ -110,10 +110,20 @@ color: var(--color-navy-blue);
 	margin-right: 0;
 }
 
+.header-link::after{
+content: '';
+display: block;
+width: 100%;
+height: 4px;
+border-radius: 2px;
+background-color: var(--color-ocean);
+}
+
 .header-link:hover,
 .header-link:focus
 .header-link:active{
-color: var(--color-iris);
+		
+color: var(--color-ocean);
 
 }
 
