@@ -12,7 +12,7 @@
 	--color-white: #ffffff;
     --color-bg-hero: rgba(46, 47, 66, 0.7);
 	--color-social-media:rgba(255, 255, 255, 0.1);
-	
+	--color-clients: #AFB1B8;
 }
 
 
@@ -278,37 +278,52 @@ align-items: center;
 
 .customers{
 	text-align: center;
-	padding-top: 242px;
+	padding-top: 120px;
 	padding-bottom: 120px;
+}
+.customers-title{
+	font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+    margin-bottom: 72px;
 }
 .customers-icons{
 	display: flex;
-	padding: 0;
-	margin: auto;
-	
-	padding-top: 72px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 	
 }
+.customers-item{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+}
+.customers-icon{
+	fill: var(--color-light-slate);
+}
 .customers-icons-list{
-	border: 1px solid #8e8f99;
-	border-radius: 4px;
 	margin-right: 24px;
 	padding: 16px 32px 16px 32px;
 	}
 .customers-icons-list:last-child{
 	margin-right: 0;
 }
-.customers-icons-list:hover,
-.customers-icons-list:focus,
-.customers-icons-list:active{
-	border-color: var(--color-ocean);
+.customers-item:hover,
+.customers-item:focus,
+.customers-item:active{
+border-color: var(--color-ocean);
 fill: var(--color-ocean);
+		}
 
-}
 
-.customers-icon{
-	
-}
 
 .footer{
 	background-color: var(--color-navy-blue);
@@ -371,14 +386,13 @@ fill: var(--color-ocean);
 		border-radius: 50%;
 		}
 
-		.social-media-link:hover,
-		.social-media-link:focus,
-		.social-media-link:active{
-			background-color: var(--color-green);
+	.social-media-link:hover,
+	.social-media-link:focus,
+	.social-media-link:active{
+	background-color: var(--color-green);
 		}
 
-
-
+		
 .hero{
 	background-color: var(--color-navy-blue);
 	text-align: center;
@@ -395,7 +409,7 @@ fill: var(--color-ocean);
 	display: flex;
 	padding: 0;
 	margin: 0;
-	margin-bottom: 8px;
+	
 	
 	
 }
@@ -404,6 +418,7 @@ fill: var(--color-ocean);
 	border-radius: 4px;
 	background-color: var(--color-cloud);
 	padding: 24px 102.14px 24px 102.14px;
+	margin-bottom: 8px;
 	
 }
 
@@ -411,11 +426,7 @@ fill: var(--color-ocean);
 	margin-right: 0;
 }
 
-.hero-icons-list:hover,
-.hero-icons-list:focus,
-.hero-icons-list:active{
-    border-color: var(--color-iris);
-}
+
 
 
 
@@ -513,16 +524,16 @@ width: 40px;
 height: 40px;
 background-color: var(--color-iris);
 	border-radius: 50%;
+}
 
+.social-link:hover,
+.social-link:focus,
+.social-link:active{
+background-color: var(--color-ocean);
 }
 
 
 
-.social-icon{
-	
-	
-
-}
 .image-sec{
 padding-bottom: 120px;
 }
